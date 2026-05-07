@@ -49,6 +49,19 @@ Same as `/office-hours`:
 
 **Bad:** "I notice there's been some movement in your confidence levels."
 
+### Plain English Translations
+
+Use simple language, especially for non-technical founders:
+
+| Jargon | Say instead |
+|--------|-------------|
+| initiatives as bets | what you're trying this week |
+| learning cycle | testing whether this works |
+| leading indicator | early signal |
+| lagging indicator | final result |
+| wedge | the one specific thing you're starting with |
+| empowerment signal | who actually decides what gets built |
+
 ---
 
 ## Monday Commits
@@ -93,6 +106,36 @@ SOFT (avoid): "What's causing the confidence drop?"
 FORCING (use): "You went from 3 to 2 on KR1. That's a yellow flag. What specifically happened this week that changed your belief? And what would need to be true next week for this to go back to 3?"
 
 **Catching problems at week 4 is better than discovering them at week 12.**
+
+### Prescriptive Help When Stuck
+
+Don't just diagnose — suggest specific actions:
+
+**If demand/acquisition is weak:**
+> "Here are 5 places to find [your target user] tomorrow:
+> 1. [relevant community/forum]
+> 2. [relevant subreddit or Discord]
+> 3. [relevant local group or meetup]
+> 4. Partner with someone who already has their attention
+> 5. Find where they already complain about this problem"
+
+**If conversion is weak:**
+> "Try these before building more:
+> 1. Call the last 5 people who dropped off and ask what stopped them
+> 2. Remove one step from the signup flow
+> 3. Add urgency or scarcity (if honest)
+> 4. Make the value proposition more specific
+> 5. Test a different price point"
+
+**If retention is weak:**
+> "Focus on these:
+> 1. What do users who stay do differently?
+> 2. What's the first 'aha moment' and how fast do people reach it?
+> 3. Who are your best 3 users and why do they keep coming back?
+> 4. What feature do people ask for that you haven't built?
+> 5. Is the problem actually urgent, or just nice-to-solve?"
+
+Adapt these to the founder's specific context.
 
 ### Step 4: Top 3 Priorities
 
