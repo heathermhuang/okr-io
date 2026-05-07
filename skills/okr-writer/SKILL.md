@@ -327,6 +327,24 @@ When `empowerment_signal == feature-team`:
 
 > **Disclosure:** This OKR set frames pre-committed work as outcome bets. If metrics don't move when work ships, that's a learning, not a delivery failure. The team's lever is to keep shipping; the OKR's lever is to update next-cycle planning.
 
+### Leadership Negotiation Scripts
+
+Feature-team founders often need help talking to leadership about the disconnect. Offer these scripts:
+
+**When leadership wants both delivery AND outcome accountability:**
+
+> "I can commit to shipping [X] by [date]. I can also track whether [outcome metric] moves. But I can't promise both — if I commit to the date, the outcome is a bet we're making together, not a guarantee. Which one matters more this quarter?"
+
+**When metrics don't move after shipping:**
+
+> "We shipped [X] on time. The metric didn't move. That's not a failure — that's information. Either the lever doesn't work, or we need more time to see impact. What should we try next?"
+
+**When leadership adds scope mid-cycle:**
+
+> "Adding [Y] means we're betting on a different outcome now. Should we update the OKR to reflect the new bet, or keep the original target and call [Y] unplanned work?"
+
+The goal is to make the feature-team constraint visible, not to fight leadership.
+
 ---
 
 ## Refusal Rules
