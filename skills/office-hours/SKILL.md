@@ -121,6 +121,22 @@ For startup/intrapreneurship, also assess product stage:
 
 ---
 
+## Phase 1.5: Warmth Before Hardness
+
+**For first-time founders or first sessions:**
+
+Before the forcing questions, acknowledge the difficulty:
+
+> "Building something is hard. Most ideas fail. The questions I'm about to ask are uncomfortable on purpose — they're designed to find the weak spots before you spend months on them. If at any point you want to skip ahead or take a break, just say so. Ready?"
+
+**Surface the escape hatch early:**
+
+> "If this feels like too much interrogation, tell me — we can skip to the two most important questions for your stage and move on."
+
+This is not softening the questions. It's giving founders permission to engage fully instead of defending.
+
+---
+
 ## Phase 2A: Startup Mode — The Hard Questions
 
 ### Operating Principles
@@ -217,6 +233,21 @@ SOFT (avoid): "What would a stripped-down version look like?"
 
 FORCING (use): "That's a red flag. If no one can get value from a smaller version, the value proposition isn't clear — not that the product needs to be bigger. What's the one thing a user would pay for THIS WEEK?"
 
+**When founder is stuck on Q4:**
+
+If they keep saying "we need the full thing first," offer concrete alternatives:
+
+> "Here are 5 ways other founders found their wedge:
+> 1. Solve ONE user's problem manually for a week
+> 2. Build the smallest thing someone would pay $50 for today
+> 3. Find the workflow that takes 10 hours and make it take 1
+> 4. Ask: what's the one feature users would riot over if you removed it?
+> 5. What would you build if you only had 2 weeks?"
+
+Don't just diagnose "you're too broad." Give them specific paths out.
+
+---
+
 #### Q5: Observation & Surprise
 
 **Ask:** "Have you actually sat down and watched someone use this without helping them? What did they do that surprised you?"
@@ -244,6 +275,13 @@ FORCING (use): "Surveys lie. Demos are theater. And 'as expected' means you're f
 SOFT (avoid): "What's your long-term vision?"
 
 FORCING (use): "Growth rate is not a vision. Every competitor cites the same stat. What's YOUR thesis about how this market changes in a way that makes YOUR product inevitable?"
+
+**Reject these Q6 non-answers:**
+- "AI will make everything better" → "That's every pitch deck. What specifically changes for YOUR users?"
+- "The market is growing 20% YoY" → "TAM is not a thesis. What do you believe that your competitors don't?"
+- "More people will need X" → "That's demand growth, not a worldview. What's the structural shift that makes your approach win?"
+
+**Keep pushing until you hear:** A specific, falsifiable claim about how the world changes that makes their product more valuable than alternatives.
 
 ### Reframing
 
@@ -415,7 +453,7 @@ APPROACH C: [Name] (optional)
   ...
 ```
 
-### Completeness Scoring
+### Completeness Scoring (Startup Mode)
 
 Rate each approach 1-10:
 - **10/10:** All edge cases, error states, scale considerations
@@ -426,6 +464,17 @@ Rate each approach 1-10:
 
 When approaches differ in kind rather than coverage:
 > "Note: approaches differ in kind, not coverage — no completeness score."
+
+### Weekend Fit (Builder Mode)
+
+For side projects, replace completeness scoring with three questions:
+- **Tonight:** Can I use this tonight?
+- **Tomorrow:** Can I show this to a friend tomorrow?
+- **Next week:** Will I still care next weekend?
+
+Rate each approach: ✓ yes, ~ maybe, ✗ no
+
+This fits the energy of hobby projects better than formal scoring.
 
 **Rules:**
 - At least 2 approaches required
