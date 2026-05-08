@@ -43,7 +43,7 @@ Detect mode from user phrasing:
 Ask briefly:
 
 1. Are features/dates already committed for this cycle?
-2. Can the team change initiatives mid-cycle if KRs aren't moving?
+2. Can the team change approachs mid-cycle if Key Results aren't moving?
 3. Who decides what gets built?
 
 Capture as: `empowered | feature-team | mixed | unknown`
@@ -84,7 +84,7 @@ Use to calibrate targets and identify blind spots.
 
 ## Phase 3: OKR Type Classification
 
-Each KR must have a type:
+Each Key Result must have a type:
 
 | Type | Scoring | Use When |
 |------|---------|----------|
@@ -121,28 +121,28 @@ GOOD: "Users never wait for the product"
 
 ## Phase 5: Draft Key Results
 
-For each KR include:
+For each Key Result include:
 
 ```
-### KR[N]: [Title]
+### Key Result [N]: [Title]
 - **Metric:** [precise definition]
 - **Baseline:** [current value or "recommended-to-measure"]
 - **Target:** [goal]
-- **Owner:** [person or role accountable for moving this KR]
+- **Owner:** [person or role accountable for moving this Key Result]
 - **Type:** [committed|aspirational|learning|operational_health|compliance]
-- **Class:** [leading|lagging|guardrail]
+- **Class:** [leading|lagging|safety check]
 - **Evidence:** [how we'll measure]
 - **Confidence:** [high|medium|low]
 ```
 
-### Guardrail Rule
+### Safety Check Rule
 
-**ALWAYS** include at least one guardrail KR for any optimization that could harm a paired metric.
+**ALWAYS** include at least one safety-check Key Result for any optimization that could harm a paired metric.
 
 Examples:
-- If optimizing for speed → guardrail on quality
-- If optimizing for growth → guardrail on churn
-- If optimizing for engagement → guardrail on user wellbeing
+- If optimizing for speed → safety check on quality
+- If optimizing for growth → safety check on churn
+- If optimizing for engagement → safety check on user wellbeing
 
 ### Baseline Rule
 
@@ -183,12 +183,12 @@ Force ranking. Ask: "If you could only achieve ONE of these, which one?"
 **Sandbagging**
 > If always hitting 100%, targets are too easy.
 
-Aspirational KRs should hit 60-70%. If higher, stretch further.
+Aspirational Key Results should hit 60-70%. If higher, stretch further.
 
 **Cascading Theater**
-> Copying parent KRs without ownership logic.
+> Copying parent Key Results without ownership logic.
 
-Each level should have DIFFERENT KRs that ladder up, not duplicates.
+Each level should have DIFFERENT Key Results that ladder up, not duplicates.
 
 **No Weekly Cadence**
 > Set-and-forget kills OKRs.
@@ -210,7 +210,7 @@ Pageviews, downloads, signups without activation = vanity.
 **Lag-Only Product OKR**
 > Team owns revenue without product outcome.
 
-Add a leading indicator the team can actually move.
+Add an early signal the team can actually move.
 
 **Pre-PMF Over-Metricization**
 > False precision when learning is the goal.
@@ -226,14 +226,14 @@ Before finalizing, present 2-3 OKR framings:
 ```
 FRAMING A: [Outcome-focused]
   Objective: [...]
-  KR1: [...]
-  KR2: [...]
-  KR3 (guardrail): [...]
+  Key Result 1: [...]
+  Key Result 2: [...]
+  Key Result 3 (safety check): [...]
 
 FRAMING B: [Learning-focused]
   Objective: [...]
-  KR1: [...]
-  KR2: [...]
+  Key Result 1: [...]
+  Key Result 2: [...]
 
 FRAMING C: [Operational]
   ...
@@ -257,8 +257,8 @@ Before presenting final OKRs, run self-critique:
 1. **Outcome-shaped** — Are these outcomes or tasks in disguise?
 2. **Measurable** — Can we actually measure these?
 3. **Achievable** — Are targets realistic given baseline and effort?
-4. **Guardrailed** — Are optimizations protected from unintended consequences?
-5. **Connected** — Do KRs ladder to Objective? Does Objective connect to strategy?
+4. **Safety checked** — Are optimizations protected from unintended consequences?
+5. **Connected** — Do Key Results ladder to Objective? Does Objective connect to strategy?
 
 **If issues found:**
 1. Fix each issue
@@ -283,31 +283,31 @@ Before presenting final OKRs, run self-critique:
 
 ## Key Results
 
-### KR1: [Title]
+### Key Result 1: [Title]
 - **Metric:** [definition]
 - **Baseline:** [current or recommended-to-measure]
 - **Target:** [goal]
 - **Type:** [committed|aspirational|learning|operational_health|compliance]
-- **Class:** [leading|lagging|guardrail]
+- **Class:** [leading|lagging|safety check]
 - **Evidence:** [measurement source]
 - **Confidence:** [high|medium|low]
 
-### KR2: [Title]
+### Key Result 2: [Title]
 ...
 
-### KR3 (Guardrail): [Title]
+### Key Result 3 (Safety check): [Title]
 ...
 
-## Initiatives (Bets)
-| Initiative | Expected to Move | Assumption |
+## Your approach (bets)
+| What you're trying | Expected to Move | Assumption |
 |------------|------------------|------------|
-| [work item] | KR1, KR2 | [what we believe] |
+| [work item] | Key Result 1, Key Result 2 | [what we believe] |
 
 ## Anti-Pattern Check
-- [x] No task-as-KR
+- [x] No task-as-Key Result
 - [x] ≤3 objectives
 - [x] Baselines present or flagged
-- [x] Guardrails included
+- [x] Safety checks included
 - [x] Weekly cadence planned
 
 ## Review Concerns
@@ -323,9 +323,9 @@ Before presenting final OKRs, run self-critique:
 
 ### Light Ownership Check
 
-For each KR, name who owns it. Use a person when known, otherwise a role.
+For each Key Result, name who owns it. Use a person when known, otherwise a role.
 
-Ask: "Who owns this KR?"
+Ask: "Who owns this Key Result?"
 
 Keep it founder-friendly:
 - Solo founder: owner can be the founder
@@ -333,7 +333,7 @@ Keep it founder-friendly:
 - Contractors/agencies: mark as dependency if they execute but cannot decide
 - Small team: one accountable owner, helpers can be named in the approach
 
-If nobody owns a KR, it is not ready. Rewrite it, split it, or drop it.
+If nobody owns a Key Result, it is not ready. Rewrite it, split it, or drop it.
 
 ---
 
@@ -372,7 +372,7 @@ The goal is to make the feature-team constraint visible, not to fight leadership
 
 No. Measure first or mark recommended-to-measure.
 
-**Tasks as KRs**
+**Tasks as Key Results**
 > "Ship the feature by March 15"
 
 That's a task. What changes for users when you ship?
