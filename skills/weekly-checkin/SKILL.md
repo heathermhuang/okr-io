@@ -2,7 +2,7 @@
 name: weekly-checkin
 description: |
   Monday commits + Friday celebrations cadence that keeps OKRs alive.
-  Asks confidence levels, top priorities, surfaces at-risk KRs, and
+  Asks confidence levels, top priorities, surfaces at-risk Key Results, and
   celebrates wins. Set-and-forget kills OKRs; this skill prevents that.
 version: "2.0.0"
 author: okr.io
@@ -30,7 +30,7 @@ MONDAY                           FRIDAY
 Monday Commits                   Friday Celebrations
 "What will I do                  "What was awesome
 this week to move                this week?"
-our KRs?"
+our Key Results?"
 ```
 
 ---
@@ -45,7 +45,7 @@ Same as `/office-hours`:
 
 **Banned:** delve, crucial, robust, leverage, synergy, "That's great progress!"
 
-**Good:** "KR1 dropped from 4 to 2. What happened?"
+**Good:** "Key Result 1 dropped from 4 to 2. What happened?"
 
 **Bad:** "I notice there's been some movement in your confidence levels."
 
@@ -55,10 +55,10 @@ Use simple language, especially for non-technical founders:
 
 | Jargon | Say instead |
 |--------|-------------|
-| initiatives as bets | what you're trying this week |
+| approachs as bets | what you're trying this week |
 | learning cycle | testing whether this works |
-| leading indicator | early signal |
-| lagging indicator | final result |
+| early signal | early signal |
+| final result | final result |
 | wedge | the one specific thing you're starting with |
 | empowerment signal | who actually decides what gets built |
 
@@ -69,20 +69,20 @@ Use simple language, especially for non-technical founders:
 ### Step 1: Load Context
 
 Pull current OKRs and last week's check-in:
-- Active objectives and KRs
+- Active objectives and Key Results
 - Last week's priorities (did they happen?)
 - Last week's confidence levels
 - Any blockers that were flagged
 
 ### Step 2: Confidence Check
 
-For each KR, ask confidence level (1-5):
+For each Key Result, ask confidence level (1-5):
 
-| KR | Last Week | This Week | Trend |
+| Key Result | Last Week | This Week | Trend |
 |----|-----------|-----------|-------|
-| KR1: Retention 35%→50% | 3 | 2 | ↓ at risk |
-| KR2: Time-to-value 3d→4h | 4 | 4 | → on track |
-| KR3: NPS 32→55 | 3 | 4 | ↑ improving |
+| Key Result 1: Retention 35%→50% | 3 | 2 | ↓ at risk |
+| Key Result 2: Time-to-value 3d→4h | 4 | 4 | → on track |
+| Key Result 3: NPS 32→55 | 3 | 4 | ↑ improving |
 
 **Interpretation:**
 - 5 = Will definitely hit
@@ -103,7 +103,7 @@ When confidence drops to 2 or below, **STOP** and dig in:
 
 SOFT (avoid): "What's causing the confidence drop?"
 
-FORCING (use): "You went from 3 to 2 on KR1. That's a yellow flag. What specifically happened this week that changed your belief? And what would need to be true next week for this to go back to 3?"
+FORCING (use): "You went from 3 to 2 on Key Result 1. That's a yellow flag. What specifically happened this week that changed your belief? And what would need to be true next week for this to go back to 3?"
 
 **Catching problems at week 4 is better than discovering them at week 12.**
 
@@ -139,11 +139,11 @@ Adapt these to the founder's specific context.
 
 ### Step 4: Top 3 Priorities
 
-Ask: "What are you doing THIS WEEK to move the KRs?"
+Ask: "What are you doing THIS WEEK to move the Key Results?"
 
-- P1: [specific action] → expected to move [KR]
-- P2: [specific action] → expected to move [KR]
-- P3: [specific action] → expected to move [KR]
+- P1: [specific action] → expected to move [Key Result]
+- P2: [specific action] → expected to move [Key Result]
+- P3: [specific action] → expected to move [Key Result]
 
 **Hard rule: No more than 3.**
 
@@ -154,13 +154,13 @@ If they list more:
 
 What did you try last week and what happened?
 
-| Action | KR | Result | Verdict |
+| Action | Key Result | Result | Verdict |
 |--------|-----|--------|---------|
-| [what we did] | KR1 | +2pp | Continue |
-| [what we did] | KR2 | No impact | Stop |
-| [what we did] | KR1 | Blocked | Unblock |
+| [what we did] | Key Result 1 | +2pp | Continue |
+| [what we did] | Key Result 2 | No impact | Stop |
+| [what we did] | Key Result 1 | Blocked | Unblock |
 
-**Ship-status ≠ impact.** An initiative that shipped but didn't move the number is a failed bet with successful execution.
+**Ship-status ≠ impact.** An approach that shipped but didn't move the number is a failed bet with successful execution.
 
 ### Step 6: Blockers
 
@@ -180,7 +180,7 @@ Ask:
 
 Capture:
 - Handoff needed: [from who] to [who] by [when]
-- Blocker from other teams: [team/person] blocking [KR/action], next ask is [specific]
+- Blocker from other teams: [team/person] blocking [Key Result/action], next ask is [specific]
 
 If the founder is solo, skip this section entirely.
 
@@ -211,7 +211,7 @@ Categories to prompt:
 
 If someone says "nothing really" or skips:
 
-> "Nothing? You shipped [X], fixed [Y], and moved KR2 by 3 points. That's not nothing. Which of those felt best?"
+> "Nothing? You shipped [X], fixed [Y], and moved Key Result 2 by 3 points. That's not nothing. Which of those felt best?"
 
 Don't let them downplay real progress.
 
@@ -224,27 +224,27 @@ Don't let them downplay real progress.
 
 ## Confidence Levels
 
-| KR | Confidence | Trend | Notes |
+| Key Result | Confidence | Trend | Notes |
 |----|------------|-------|-------|
-| KR1: [name] | 3/5 | ↓ | at risk, need to pivot approach |
-| KR2: [name] | 4/5 | → | on track |
-| KR3 (guardrail): [name] | 5/5 | → | holding |
+| Key Result 1: [name] | 3/5 | ↓ | at risk, need to pivot approach |
+| Key Result 2: [name] | 4/5 | → | on track |
+| Key Result 3 (safety check): [name] | 5/5 | → | holding |
 
 ## At-Risk Items
-- **KR1** dropped to 2/5. Reason: [specific]. Action: [specific].
+- **Key Result 1** dropped to 2/5. Reason: [specific]. Action: [specific].
 
 ## This Week's Priorities
 
-1. **[Action]** → expected to move KR1
-2. **[Action]** → expected to move KR2
-3. **[Action]** → expected to move KR1
+1. **[Action]** → expected to move Key Result 1
+2. **[Action]** → expected to move Key Result 2
+3. **[Action]** → expected to move Key Result 1
 
 ## Last Week's Results
 
-| Action | KR | Result | Verdict |
+| Action | Key Result | Result | Verdict |
 |--------|-----|--------|---------|
-| [what we did] | KR1 | +2pp | Continue |
-| [what we did] | KR2 | No visible impact | Stop |
+| [what we did] | Key Result 1 | +2pp | Continue |
+| [what we did] | Key Result 2 | No visible impact | Stop |
 
 ## Blockers
 
@@ -256,7 +256,7 @@ Don't let them downplay real progress.
 
 ## Blockers From Other Teams
 
-- [team/person]: blocking [KR/action]. Next ask: [specific ask] by [when]
+- [team/person]: blocking [Key Result/action]. Next ask: [specific ask] by [when]
 
 ## Friday Wins
 
@@ -275,14 +275,14 @@ Don't let them downplay real progress.
 
 After 3+ weeks, surface patterns:
 
-**Improving KRs:**
-> "KR2 has gone 2→3→4 over three weeks. Whatever you're doing is working. Double down?"
+**Improving Key Results:**
+> "Key Result 2 has gone 2→3→4 over three weeks. Whatever you're doing is working. Double down?"
 
-**Declining KRs:**
-> "KR1 has gone 4→3→2 over three weeks. This isn't a blip; it's a trend. What's the systemic issue?"
+**Declining Key Results:**
+> "Key Result 1 has gone 4→3→2 over three weeks. This isn't a blip; it's a trend. What's the systemic issue?"
 
 **Stable but stuck:**
-> "KR3 has been 3/5 for four weeks straight. You're neither winning nor losing. Is this the right metric, or are you just not prioritizing it?"
+> "Key Result 3 has been 3/5 for four weeks straight. You're neither winning nor losing. Is this the right metric, or are you just not prioritizing it?"
 
 ---
 
@@ -311,7 +311,7 @@ If confidence is always 4-5, either targets are too easy or people are afraid to
 ## Integration with okr.io
 
 Weekly check-ins:
-- Update KR confidence levels
+- Update Key Result confidence levels
 - Log priorities and results
 - Populate the activity feed
 - Feed into end-of-cycle grading (`/okr-grader`)
@@ -335,7 +335,7 @@ After each check-in, note patterns:
 ```
 
 Examples:
-- "KR1 consistently at risk when [person] is on PTO"
+- "Key Result 1 consistently at risk when [person] is on PTO"
 - "Friday wins correlate with shipping, not metrics"
 - "Confidence drops precede misses by 3 weeks"
 
