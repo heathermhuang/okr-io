@@ -170,6 +170,20 @@ What's preventing progress?
 
 **Each blocker needs an owner and a deadline**, or it's just a complaint.
 
+### Step 7: Team Handoffs
+
+Only use this if more than one person is involved. Keep it light.
+
+Ask:
+- "Any handoffs needed this week?"
+- "Any blockers from other teams, contractors, or approvers?"
+
+Capture:
+- Handoff needed: [from who] to [who] by [when]
+- Blocker from other teams: [team/person] blocking [KR/action], next ask is [specific]
+
+If the founder is solo, skip this section entirely.
+
 ---
 
 ## Friday Celebrations
@@ -235,6 +249,14 @@ Don't let them downplay real progress.
 ## Blockers
 
 - [blocker]: need [specific help] from [who] by [when]
+
+## Handoffs Needed
+
+- [from who] to [to who]: [handoff] by [when]
+
+## Blockers From Other Teams
+
+- [team/person]: blocking [KR/action]. Next ask: [specific ask] by [when]
 
 ## Friday Wins
 
