@@ -211,6 +211,12 @@ FORCING (use): "Show me the spreadsheet. Show me the Slack channel. Show me the 
 
 **Push until you hear:** A name. A role. A specific consequence they face.
 
+**Light team context:** If the founder mentions a cofounder, contractor, agency, advisor, small team, enterprise buyer, or leadership approval, ask exactly enough to avoid hidden alignment risk:
+- "Who else needs to be aligned on this?"
+- "Who will execute vs. who will approve?"
+
+Do not turn this into enterprise theater. The goal is to expose the one or two people who can block execution or approval, not build a RACI chart.
+
 **Red flags:** Category answers. "Healthcare enterprises." "SMBs." "Marketing teams."
 
 **Pushback patterns:**
