@@ -128,6 +128,7 @@ For each KR include:
 - **Metric:** [precise definition]
 - **Baseline:** [current value or "recommended-to-measure"]
 - **Target:** [goal]
+- **Owner:** [person or role accountable for moving this KR]
 - **Type:** [committed|aspirational|learning|operational_health|compliance]
 - **Class:** [leading|lagging|guardrail]
 - **Evidence:** [how we'll measure]
@@ -275,6 +276,7 @@ Before presenting final OKRs, run self-critique:
 **Cycle:** [Q2 2026]
 **Empowerment:** [empowered|feature-team|mixed]
 **Strategy Brief:** [link or "none"]
+**Ownership Note:** [solo owner, cofounder split, contractor/agency dependency, or small team owner]
 
 ## Objective
 [Qualitative, inspiring statement]
@@ -318,6 +320,20 @@ Before presenting final OKRs, run self-critique:
 *Ready for: Weekly check-ins with `/weekly-checkin`*
 *Grading with: `/okr-grader`*
 ```
+
+### Light Ownership Check
+
+For each KR, name who owns it. Use a person when known, otherwise a role.
+
+Ask: "Who owns this KR?"
+
+Keep it founder-friendly:
+- Solo founder: owner can be the founder
+- Cofounders: split by real decision rights, not politeness
+- Contractors/agencies: mark as dependency if they execute but cannot decide
+- Small team: one accountable owner, helpers can be named in the approach
+
+If nobody owns a KR, it is not ready. Rewrite it, split it, or drop it.
 
 ---
 
